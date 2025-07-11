@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import LoggedInLayout from '../components/loggedin';
 import api from '../api';
-import { OfferModal } from '../components/Offermodal'; 
+import { OfferModal } from '../components/offermodal'; 
 
 const standardProducts = {
   "Tomatoes": { name: "Fresh Tomatoes", imageUrl: "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
