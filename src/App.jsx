@@ -14,6 +14,7 @@ import Profile from './pages/profile';
 import { FarmerMarketplacePage } from './pages/farmer';
 import { FarmerOffers } from './pages/offers';
 
+
 function App() {
   return (
     <BrowserRouter>
