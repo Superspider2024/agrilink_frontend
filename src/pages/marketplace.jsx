@@ -12,7 +12,7 @@ const getUnitName = (productName) => {
   return 'Unit'; // Fallback
 };
 
-const BuyModal = ({ product, onClose }) => {
+const Marketplace = ({ product, onClose }) => {
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState('review'); // 'review' or 'success'
@@ -149,4 +149,4 @@ const BuyModal = ({ product, onClose }) => {
   );
 };
 
-export default BuyModal;
+export default Marketplace;
