@@ -42,7 +42,7 @@ const BottomNav = ({ user }) => {
        { path: '/messages', label: 'Messages', icon: <MessagesIcon /> }]
     : [{ path: '/orders', label: 'Orders', icon: <OrdersIcon /> },
        { path: '/marketplace', label: 'Marketplace', icon: <MarketplaceIcon /> },
-       { path: '/messages', label: 'Messages', icon: <MessagesIcon /> }];
+       {/*{ path: '/messages', label: 'Messages', icon: <MessagesIcon /> }*/}];
 
   return (
     <nav className="fixed bottom-0 inset-x-0 bg-white shadow-t-lg rounded-t-2xl z-50 md:hidden">

@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useRef } from 'react';
+/*import React, { useState, useEffect, useRef } from 'react';
 import LoggedInLayout from '../components/loggedin';
 import api from '../api';
 import io from 'socket.io-client';
@@ -229,3 +229,4 @@ export function Messages() {
     </LoggedInLayout>
   );
 }
+*/

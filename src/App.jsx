@@ -22,7 +22,7 @@ function App() {
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/orders" element={<BuyersOrders />} />
-        <Route path="/messages" element={<Messages/>} />
+        {/*<Route path="/messages" element={<Messages/>} />*/}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/profile" element={<Profile />} />

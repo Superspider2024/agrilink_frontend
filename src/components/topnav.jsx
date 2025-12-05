@@ -11,12 +11,12 @@ export default function TopNav({ userType }) {
     ? [ // Farmer's Links
         { path: '/farmermarketplace', label: 'My Products' },
         { path: '/offers', label: 'Incoming Offers' },
-        { path: '/messages', label: 'Messages' },
+        {/*{ path: '/messages', label: 'Messages' },*/}
       ]
     : [ // Buyer's Links
         { path: '/marketplace', label: 'Marketplace' },
         { path: '/orders', label: 'My Orders' },
-        { path: '/messages', label: 'Messages' },
+        {/*{ path: '/messages', label: 'Messages' },*/}
       ];
 
   return (
